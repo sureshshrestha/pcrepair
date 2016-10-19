@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/bootstrap.js')
+  body
+.container
+  include ./includes/navbar.jade
+  include ./includes/showcase.jade
+  block content
+  
+  footer.footer
+    p © 2016 Company, Inc.
+// /container
+
