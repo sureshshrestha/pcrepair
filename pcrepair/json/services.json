@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Hardware Repair",
+        "description": "Lopsum irumLopsum irumLopsum irumLopsum irum",
+        "price_range": "$100 - $200" 
+    },
+    {
+        "name": "Virus Removal",
+        "description": "Lopsum opsum irumLopsum irum",
+        "price_range": "$150 - $300" 
+    },
+    {
+        "name": "PC Tune up",
+        "description": "Lopsum iruLopsum irum",
+        "price_range": "$180 - $210" 
+    }
+]
