@@ -1,3 +1,5 @@
+- var HOMEPAGE = false;
+block variables
 doctype html
 html
   head
@@ -8,7 +10,8 @@ html
   body
 .container
   include ./includes/navbar.jade
-  include ./includes/showcase.jade
+  if HOMEPAGE
+    include ./includes/showcase.jade
   block content
   
   footer.footer
